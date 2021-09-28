@@ -10,7 +10,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start -p $PORT"
+    "start": "next start -p $PORT",
+    "test": "jest"
   },
   "dependencies": {
     "next": "11.1.2",
@@ -28,6 +29,7 @@
     "lint-staged": "^11.1.2"
   },
   "jest": {
+    "testEnvironment":"jsdom",
     "setupFilesAfterEnv": [
       "@testing-library/jest-dom"
     ],
