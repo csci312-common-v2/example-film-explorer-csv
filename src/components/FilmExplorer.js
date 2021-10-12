@@ -26,7 +26,7 @@ function FilmExplorer() {
   };
 
   const mainContents =
-    films.size === 0 ? (
+    films.length === 0 ? (
       <h2>Loading...</h2>
     ) : (
       <FilmTableContainer
