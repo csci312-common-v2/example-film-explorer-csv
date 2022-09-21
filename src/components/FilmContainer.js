@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
-import FilmSummary from './FilmSummary';
-import FilmDetail from './FilmDetail';
+import FilmSummary from "./FilmSummary";
+import FilmDetail from "./FilmDetail";
 
 function FilmContainer(props) {
   const [showDetail, setShowDetail] = useState(false);

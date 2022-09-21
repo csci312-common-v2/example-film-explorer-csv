@@ -1,6 +1,6 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import styles from './SearchBar.module.css';
+import React from "react";
+import PropTypes from "prop-types";
+import styles from "./SearchBar.module.css";
 
 function SearchBar({ searchTerm, sortType, setTerm, setType }) {
   const searchField = (

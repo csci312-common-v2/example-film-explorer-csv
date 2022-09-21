@@ -1,7 +1,7 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 
-import FilmTable from './FilmTable';
+import FilmTable from "./FilmTable";
 
 function FilmTableContainer({ films, searchTerm, sortType, setRatingFor }) {
   let displayedFilms = films;

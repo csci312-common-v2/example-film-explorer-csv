@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
-import filmData from '../../data/films.json';
-import FilmTableContainer from './FilmTableContainer';
-import SearchBar from './SearchBar';
+import filmData from "../../data/films.json";
+import FilmTableContainer from "./FilmTableContainer";
+import SearchBar from "./SearchBar";
 
 function FilmExplorer() {
-  const [searchTerm, setSearchTerm] = useState('');
-  const [sortType, setSortType] = useState('title');
+  const [searchTerm, setSearchTerm] = useState("");
+  const [sortType, setSortType] = useState("title");
   const [films, setFilms] = useState([]);
 
   // load the film data

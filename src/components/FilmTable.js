@@ -1,7 +1,7 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 
-import FilmContainer from './FilmContainer';
+import FilmContainer from "./FilmContainer";
 
 function FilmTable({ films, setRatingFor }) {
   const keyedFilms = films.map((film) => (

@@ -1,9 +1,9 @@
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 
-import styles from './FilmSummary.module.css';
+import styles from "./FilmSummary.module.css";
 
-import StarRating from './StarRating';
+import StarRating from "./StarRating";
 
 function FilmSummary(props) {
   return (

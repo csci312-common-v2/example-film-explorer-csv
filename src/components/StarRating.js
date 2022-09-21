@@ -1,6 +1,6 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import styles from './StarRating.module.css';
+import React from "react";
+import PropTypes from "prop-types";
+import styles from "./StarRating.module.css";
 
 function StarRating({ rating, setRating }) {
   const stars = [];
@@ -8,7 +8,7 @@ function StarRating({ rating, setRating }) {
   for (let i = 1; i <= 5; i += 1) {
     stars.push(
       <span
-        className={i <= rating ? styles.filled: styles.empty}
+        className={i <= rating ? styles.filled : styles.empty}
         key={i}
         onClick={() => {
           setRating(i);
@@ -19,7 +19,6 @@ function StarRating({ rating, setRating }) {
     );
   }
 
- 
   return <span>{stars}</span>;
 }
 
