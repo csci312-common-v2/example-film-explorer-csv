@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-import styles from "./FilmSummary.module.css";
+import styles from "../styles/FilmSummary.module.css";
 
 import StarRating from "./StarRating";
 

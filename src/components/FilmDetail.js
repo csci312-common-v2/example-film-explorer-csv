@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import PropTypes from "prop-types";
 
-import styles from "./FilmDetail.module.css";
+import styles from "../styles/FilmDetail.module.css";
 
 import FilmSummary from "./FilmSummary";
 
